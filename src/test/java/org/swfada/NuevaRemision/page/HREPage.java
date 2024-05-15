@@ -127,13 +127,6 @@ public class HREPage extends PageObject {
         // Envía la ruta del archivo al elemento de entrada de archivo
         fileInput.sendKeys(file.getAbsolutePath());
 
-        // Espera unos segundos para que el archivo se cargue
-       // try {
-         //   Thread.sleep(5000);
-       // } catch (InterruptedException e) {
-         //   e.printStackTrace();
-        //}
-
     }
 
     public void SeleccionarProvincia(String xprovincia) {
